@@ -76,15 +76,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 330px;
-    padding-bottom: 300px;
+
     text-align: center;
     font-size: 1.5em;
     color: white;
     height: 100vh;
 }
 
-
+.header-section{
+    padding-top: 330px;
+    padding-bottom: 300px;
+}
 /*----- About me --------*/
 
 #about_me{
@@ -161,7 +163,6 @@ body{
     background: linear-gradient(-90deg, #101010, #808080);
     text-align: center;
     color: white;
-    height: 60vh;
 }
 
 .container-contact, .contact-link{
@@ -171,7 +172,7 @@ body{
 .contact-link{
     align-items: center;
     font-size: 1.5em;
-    padding: 50px 40px 0 40px;
+    padding: 50px 40px 100px 40px;
     transition: font-size 0.5s;
 }
 
@@ -182,6 +183,7 @@ body{
 .container-contact{
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #contact_me > p{
@@ -195,8 +197,34 @@ body{
 }
 
 
+/*--------footer ------------*/
+
+#footer-doc{
+    height: 6vh;
+    background-color: rgba(2, 2, 2, 0.9);
+}
+
+#footer-doc > p{
+    text-align: right;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+}
 
 
+/*----------------- Media query ----------------- */
 
+@media only screen and (max-width: 800px){
+    #navbar{
+        justify-content: center;
+        flex-wrap:nowrap;
+        height: 10vh;
+        font-size: 0.8em;
+        padding: 0;
+    }
+    #navbar ul li{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+
+/*-------------Menu -----------------*/
+
+
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    background: linear-gradient(-90deg, #101010, #808080);
+    padding-right: 20px;
+    height: 5vw;
+
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+#navbar ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    transition: font-size 0.5s;
+}
+
+#navbar ul li a:hover{
+    font-size: 1.3em;
+}
+
+
+
+
+/*------Welcome Section ------*/
+
+#welcome-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://c.pxhere.com/photos/00/33/moon_universe_space_milky_way_background_galaxy_planet_all-1188425.jpg!d");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 330px;
+    padding-bottom: 300px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+/*----- About me --------*/

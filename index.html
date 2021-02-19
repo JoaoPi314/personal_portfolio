@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/d8fcb84beb.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
-    <nav id="navbar">
-        <ul>
-           <li><a href="#about_me">About Me</a></li>
-           <li><a href="#projects">My Projects</a></li>
-           <li><a href="#contact_me">Contact Me</a></li>
-        </ul>
-    </nav>
-
-
+ 
     <header id="welcome-section">
         <h1>Welcome to my Portfolio!</h1>
         <p>Here are some of JP's Projects</p>
     </header>
     
     <main>
+        <nav id="navbar">
+            <ul>
+               <li><a href="#about_me">About Me</a></li>
+               <li><a href="#projects">My Projects</a></li>
+               <li><a href="#contact_me">Contact Me</a></li>
+            </ul>
+        </nav>
+
         <section id="about_me">
             <h2>A little bit about Me</h2>
             <div class="container">
@@ -35,7 +37,7 @@
         <section id="projects">
             <h2>My Projects</h2>
             <div class="container-prj">
-                <picture class="item">
+                <picture class="project-tile">
                     <a href="">
                         <img class="image" src="https://i.postimg.cc/T2H0nMmc/preview-tribute.png" alt="Tribute Page preview">
 
@@ -45,7 +47,7 @@
                     </a>
                 </picture>
 
-                <picture class="item">
+                <picture class="project-tile">
                     <a href="">
                         <img class="image" src="https://i.postimg.cc/pdLY9Rkx/preview-form.png" alt="Form Page preview">
 
@@ -55,7 +57,7 @@
                     </a>
                 </picture>
 
-                <picture class="item">
+                <picture class="project-tile">
                     <a href="">
                         <img class="image" src="https://i.postimg.cc/T1gr8w2j/preview-land.png" alt="Landing Page preview">
 
@@ -65,7 +67,7 @@
                     </a>
                 </picture>
 
-                <picture class="item">
+                <picture class="project-tile">
                     <a href="">
                         <img class="image" src="https://i.postimg.cc/jSsy9tpN/preview-doc.png" alt="Documentation Page preview">
 
@@ -78,7 +80,26 @@
         </section>
 
         <section id="contact_me">
-
+            <h2>Contact Me</h2>
+            <p>I am waiting for your "Hi!"</p>
+            <div class="container-contact">
+                <a href="" id="profile-link" class="contact-link">
+                    <i class="fab fa-github"></i>
+                    <p>GitHub</p>
+                </a>
+                <a href="" id="fcc-link" class="contact-link">
+                    <i class="fab fa-free-code-camp"></i>
+                    <p>FreeCodeCamp</p>
+                </a>
+                <a href="" id="linkedin-link" class="contact-link">
+                    <i class="fab fa-linkedin-in"></i>
+                    <p>Linkedin</p>
+                </a>
+                <a href="" id ="mail-link" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <p>Send a mail</p>
+                </a>
+            </div>
         </section>
 
     </main>
